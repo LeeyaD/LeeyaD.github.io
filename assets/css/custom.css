@@ -1,0 +1,49 @@
+#banner .profile img {
+  border-radius: 50%;
+}
+
+#banner h2 {
+  /* color: #e8974a; */
+  color: #ffffff;
+}
+
+#banner p {
+  /* color: #e8974a; */
+  color: #ffffff;
+}
+
+#banner p {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#banner .icon {
+  font-size: 40px;
+}
+
+.features-row h3, p {
+  color: #646464;
+}
+
+/* .twine-architecture { */
+  /* align-self: center; */
+  /* max-width: 100%; */
+/* } */
+
+.other-projects {
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  color: #646464;
+}
+
+.projects {
+  /* color: #e89980; */
+  color: #e8974a;
+  font-weight: bold;
+}
+
+/* .projects-twine {
+  color: #f7D3ba;
+  font-weight: bold;
+} */
