@@ -3101,7 +3101,7 @@
 					background-color: rgba(255, 255, 255, 0.2);
 				}
 
-	.dropotron {
+	/* .dropotron {
 		background: #fff;
 		border-radius: 6px;
 		box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.065), inset 0 -1px 0 0 #fff, inset 0 0 0 1px rgba(229, 229, 229, 0.5);
@@ -3159,20 +3159,18 @@
 				top: -0.375em;
 				width: 0.75em;
 				z-index: 0;
-			}
+			} */
 
 /* Banner */
 
 	#banner {
 		background-attachment: scroll,							fixed;
-		/* background-color: #666; */
 		/* background-color: #f7d3ba; */
 		background-color: #fae2d1;
 		/* background-image: url("images/overlay.png"), url("../../images/banner.jpg"); */
-		/* background-image: url("../../images/new-york-city.jpg"); */
-		/* background-image: url("../../images/IMG_0422.JPG"); */
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
+		/* background-repeat: no-repeat; */
 		background-size: auto,							cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
