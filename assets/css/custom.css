@@ -6,21 +6,23 @@
   color: #e8974a;
   /* color: #ffffff; */
   /* color: #646464; */
+  font-weight: bold;
 }
 
 #banner p {
   color: #e8974a;
+  font-weight: bold;
   /* color: #ffffff; */
-}
-
-#banner p {
   margin-left: 20%;
   margin-right: 20%;
 }
 
-#banner .icon {
+/* #banner p {
+} */
+
+/* #banner .icon {
   font-size: 40px;
-}
+} */
 
 .features-row h3, p {
   color: #646464;
