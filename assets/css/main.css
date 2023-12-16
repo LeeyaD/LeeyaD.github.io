@@ -3502,7 +3502,7 @@
 		/* Banner */
 
 		/* Nav */
-
+/* 
 			#page-wrapper {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -3663,7 +3663,7 @@
 				transform: translateX(0);
 			}
 
-	}
+	} */
 
 /* Mobile */
 
@@ -3902,5 +3902,5 @@
 			#cta {
 				padding: 2.5em 1em 3em 1em;
 			}
-
+		}
 	}
