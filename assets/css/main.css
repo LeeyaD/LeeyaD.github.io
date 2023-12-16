@@ -2479,6 +2479,7 @@
 			}
 
 /* List */
+/* Affects icon list in footer */
 
 	ol {
 		list-style: decimal;
@@ -2486,9 +2487,9 @@
 		padding-left: 1.25em;
 	}
 
-		ol li {
-			padding-left: 0.25em;
-		}
+	ol li {
+		padding-left: 0.25em;
+	}
 
 	ul {
 		list-style: disc;
@@ -2496,47 +2497,47 @@
 		padding-left: 1em;
 	}
 
-		ul li {
-			padding-left: 0.5em;
-		}
+	ul li {
+		padding-left: 0.5em;
+	}
 
-		ul.alt {
-			list-style: none;
-			padding-left: 0;
-		}
+	ul.alt {
+		list-style: none;
+		padding-left: 0;
+	}
 
-			ul.alt li {
-				border-top: solid 1px #e5e5e5;
-				padding: 0.5em 0;
-			}
+	ul.alt li {
+		border-top: solid 1px #e5e5e5;
+		padding: 0.5em 0;
+	}
 
-				ul.alt li:first-child {
-					border-top: 0;
-					padding-top: 0;
-				}
+	ul.alt li:first-child {
+		border-top: 0;
+		padding-top: 0;
+	}
 
-		ul.icons {
-			cursor: default;
-			list-style: none;
-			padding-left: 0;
-		}
+	ul.icons {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+	}
 
-			ul.icons li {
-				display: inline-block;
-				padding: 0 1.25em 0 0;
-			}
+	ul.icons li {
+		display: inline-block;
+		padding: 0 1.25em 0 0;
+	}
 
-				ul.icons li:last-child {
-					padding-right: 0;
-				}
+	ul.icons li:last-child {
+		padding-right: 0;
+	}
 
-				ul.icons li .icon {
-					color: inherit;
-				}
+	ul.icons li .icon {
+		color: inherit;
+	}
 
-					ul.icons li .icon:before {
-						font-size: 1.75em;
-					}
+	ul.icons li .icon:before {
+		font-size: 1.75em;
+	}
 
 	dl {
 		margin: 0 0 2em 0;
@@ -2666,7 +2667,7 @@
 
 /* Table */
 
-	.table-wrapper {
+	/* .table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
 	}
@@ -2730,7 +2731,7 @@
 
 			table.alt tfoot {
 				border-top: 0;
-			}
+			} */
 
 /* Button */
 
@@ -2747,9 +2748,11 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: #666;
+		/* background-color: #e8974a; */
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff;
+		/* color: #e8974a; */
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2761,7 +2764,7 @@
 		white-space: nowrap;
 	}
 
-		input[type="submit"]:hover,
+		/* input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
@@ -2773,8 +2776,8 @@
 		input[type="button"]:active,
 		.button:active {
 			background-color: #595959;
-		}
-
+		} */
+/* 
 		input[type="submit"].icon,
 		input[type="reset"].icon,
 		input[type="button"].icon,
@@ -2803,9 +2806,9 @@
 			font-size: 0.8em;
 			height: 2.7em;
 			line-height: 2.7em;
-		}
+		} */
 
-		input[type="submit"].large,
+		/* input[type="submit"].large,
 		input[type="reset"].large,
 		input[type="button"].large,
 		.button.large {
@@ -2835,9 +2838,9 @@
 			input[type="button"].alt:active,
 			.button.alt:active {
 				background-color: #f0f0f0;
-			}
+			} */
 
-			input[type="submit"].alt.icon:before,
+			/* input[type="submit"].alt.icon:before,
 			input[type="reset"].alt.icon:before,
 			input[type="button"].alt.icon:before,
 			.button.alt.icon:before {
@@ -2864,9 +2867,9 @@
 			input[type="button"].primary:active,
 			.button.primary:active {
 				background-color: #e4886a;
-			}
+			} */
 
-		input[type="submit"].disabled, input[type="submit"]:disabled,
+		/* input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
 		input[type="button"].disabled,
@@ -2878,7 +2881,7 @@
 			color: #f5f5f5 !important;
 			cursor: default;
 			opacity: 0.25;
-		}
+		} */
 
 /* Header */
 
@@ -3163,7 +3166,8 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		/* background-color: #666; */
-		background-color: #f7d3ba;
+		/* background-color: #f7d3ba; */
+		background-color: #fae2d1;
 		/* background-image: url("images/overlay.png"), url("../../images/banner.jpg"); */
 		/* background-image: url("../../images/new-york-city.jpg"); */
 		/* background-image: url("../../images/IMG_0422.JPG"); */
@@ -3306,10 +3310,11 @@
 				}
 
 /* CTA */
-
+/* Section above footer */
 	#cta {
 		/* background: #e8974a; */
-		background: #f7d3ba;
+		/* background: #f7d3ba; */
+		background: #fae2d1;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;

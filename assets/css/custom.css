@@ -3,13 +3,13 @@
 }
 
 #banner h2 {
-  /* color: #e8974a; */
-  color: #ffffff;
+  color: #e8974a;
+  /* color: #ffffff; */
 }
 
 #banner p {
-  /* color: #e8974a; */
-  color: #ffffff;
+  color: #e8974a;
+  /* color: #ffffff; */
 }
 
 #banner p {
@@ -25,10 +25,9 @@
   color: #646464;
 }
 
-/* .twine-architecture { */
-  /* align-self: center; */
-  /* max-width: 100%; */
-/* } */
+#banner .button {
+  color: #e8974a;
+}
 
 .other-projects {
   font-weight: 400;
@@ -38,7 +37,7 @@
 }
 
 .projects {
-  /* color: #e89980; */
+  /* color: #646464; */
   color: #e8974a;
   font-weight: bold;
 }
