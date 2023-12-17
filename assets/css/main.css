@@ -123,7 +123,6 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e8974a;
 		text-decoration: none;
 	}
 
@@ -2654,12 +2653,12 @@
 					ul.actions:not(.fixed) li .button {
 						width: 100%;
 					}
-
-						ul.actions:not(.fixed) li input[type="submit"].icon:before,
-						ul.actions:not(.fixed) li input[type="reset"].icon:before,
-						ul.actions:not(.fixed) li input[type="button"].icon:before,
-						ul.actions:not(.fixed) li button.icon:before,
-						ul.actions:not(.fixed) li .button.icon:before {
+					
+					ul.actions:not(.fixed) li input[type="submit"].icon:before,
+					ul.actions:not(.fixed) li input[type="reset"].icon:before,
+					ul.actions:not(.fixed) li input[type="button"].icon:before,
+					ul.actions:not(.fixed) li button.icon:before,
+					ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5em;
 						}
 
@@ -2748,11 +2747,9 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: #666;
-		/* background-color: #e8974a; */
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff;
-		/* color: #e8974a; */
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2934,7 +2931,8 @@
 	}
 
 	#header {
-		background: #444;
+		/* background: #444; */
+		background: #fae2d1;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -2997,6 +2995,7 @@
 
 					#header nav > ul > li a:not(.button) {
 						color: #fff;
+						/* color: #e8974a; */
 						display: inline-block;
 						text-decoration: none;
 						border: 0;
@@ -3004,6 +3003,7 @@
 
 						#header nav > ul > li a:not(.button).icon:before {
 							color: #999;
+							/* color: #e8974a; */
 							margin-right: 0.5em;
 						}
 
@@ -3015,9 +3015,10 @@
 						background-color: rgba(153, 153, 153, 0.25);
 					}
 
-					#header nav > ul > li .button {
+					#header nav > ul > li .button { /*nav buttons*/
 						margin: 0 0 0 0.5em;
 						position: relative;
+						color: #e8974a; /* nav button text */
 					}
 
 		#header input[type="submit"],
@@ -3025,7 +3026,8 @@
 		#header input[type="button"],
 		#header .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #999;
+			/* box-shadow: inset 0 0 0 2px #999; */
+			box-shadow: inset 0 0 0 2px #e8974a; /*header nav border*/
 			color: #fff;
 		}
 
@@ -3069,6 +3071,7 @@
 			animation: none;
 			background: none;
 			color: rgba(255, 255, 255, 0.75);
+			/* color: #e8974a; */
 			position: absolute;
 		}
 
@@ -3084,14 +3087,16 @@
 			#header.alt input[type="reset"],
 			#header.alt input[type="button"],
 			#header.alt .button {
-				box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+				/* box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5); */
+				box-shadow: inset 0 0 0 2px #e8974a; /*nav button border*/
 			}
-
-				#header.alt input[type="submit"]:hover,
-				#header.alt input[type="reset"]:hover,
-				#header.alt input[type="button"]:hover,
-				#header.alt .button:hover {
-					background-color: rgba(255, 255, 255, 0.1);
+			
+			#header.alt input[type="submit"]:hover,
+			#header.alt input[type="reset"]:hover,
+			#header.alt input[type="button"]:hover,
+			#header.alt .button:hover {
+				background-color: rgba(255, 255, 255, 0.1);
+				/* background-color: rgba(232, 151, 74); */
 				}
 
 				#header.alt input[type="submit"]:active,
@@ -3099,6 +3104,7 @@
 				#header.alt input[type="button"]:active,
 				#header.alt .button:active {
 					background-color: rgba(255, 255, 255, 0.2);
+					/* background-color: rgba(232, 151, 74); */
 				}
 
 	/* .dropotron {
@@ -3202,8 +3208,10 @@
 		#banner input[type="button"],
 		#banner .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+			/* box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5); */
+			box-shadow: inset 0 0 0 2px #e8974a; /*banner button*/
 			color: #fff;
+			/* color: #e8974a; */
 			min-width: 12em;
 		}
 
@@ -3439,6 +3447,7 @@
 
 	#navPanel, #navButton {
 		display: none;
+		color: e8974a;
 	}
 
 	@media screen and (max-width: 840px) {
@@ -3505,7 +3514,7 @@
 		/* Banner */
 
 		/* Nav */
-/* 
+
 			#page-wrapper {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -3561,9 +3570,12 @@
 					}
 
 					#navButton .toggle:before {
-						background: rgba(192, 192, 192, 0.75);
+						/* background: rgba(192, 192, 192, 0.75); */
+						background: #e8974a;
 						border-radius: 6px;
-						color: #fff;
+						/* color: #fff; */
+						/* color: #e8974a; */
+						color: #fae2d1;
 						content: '\f0c9';
 						display: block;
 						font-size: 16px;
@@ -3597,14 +3609,20 @@
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #2b2b2b;
-				color: #bbb;
+				/* background: #2b2b2b; */
+				background: #fae2d1;
+				/* color: #bbb; */
+				/* color: #2b2b2b; */
+				color: #e8974a;
 			}
-
-				#navPanel .link {
-					border-bottom: 0;
-					border-top: solid 1px rgba(255, 255, 255, 0.05);
-					color: #bbb;
+			
+			#navPanel .link {
+				border-bottom: 1;
+				/* border-top: solid 1px rgba(255, 255, 255, 0.05); */
+				/* border-top: solid 1px #e8974a; */
+				border-bottom: solid 1px #e8974a;
+				color: #bbb;
+				/* color: #e8974a; */
 					display: block;
 					height: 44px;
 					line-height: 44px;
@@ -3617,7 +3635,8 @@
 					}
 
 					#navPanel .link.depth-0 {
-						color: #fff;
+						/* color: #fff; */
+						color: #e8974a;
 					}
 
 					#navPanel .link .indent-1 {
@@ -3657,16 +3676,18 @@
 				-webkit-transform: translateX(275px);
 				-ms-transform: translateX(275px);
 				transform: translateX(275px);
+				/* background-color: #e8974a; */
 			}
-
+			
 			body.navPanel-visible #navPanel {
 				-moz-transform: translateX(0);
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
+				/* background-color: #e8974a; */
 			}
 
-	} */
+	/* } */
 
 /* Mobile */
 
