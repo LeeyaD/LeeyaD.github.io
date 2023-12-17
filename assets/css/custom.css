@@ -49,6 +49,15 @@
   font-weight: bold;
 }
 
+#sticky-component {
+  position: sticky;
+  bottom: 0px;
+  font-size: 60px;
+  margin-left: 1%;
+  margin-bottom: 5%;
+  color: #e8974a;
+}
+
 /* .projects-twine {
   color: #f7D3ba;
   font-weight: bold;
