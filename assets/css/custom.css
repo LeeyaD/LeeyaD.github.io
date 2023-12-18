@@ -1,3 +1,12 @@
+/* #page-wrapper #footer .copyright { */
+#page-wrapper footer {
+  background-color: #fae2d1;
+}
+
+#page-wrapper #footer .copyright li {
+  border: 0;
+}
+
 #banner .profile img {
   border-radius: 50%;
 }
@@ -51,11 +60,15 @@
 
 #sticky-component {
   position: sticky;
+  /* display: inline; */
   bottom: 0px;
+  left: 0px;
   font-size: 60px;
-  margin-left: 1%;
-  margin-bottom: 5%;
+  margin-left: 0.5%;
+  /* margin-bottom: 5%; */
   color: #e8974a;
+  /* background-color: #fae2d1; */
+  /* overflow: visible; */
 }
 
 /* .projects-twine {
