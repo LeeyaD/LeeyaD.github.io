@@ -72,6 +72,13 @@
   /* overflow: visible; */
 }
 
+.about-me {
+  margin: 5%;
+}
+
+#cta-line-through {
+  text-decoration: line-through;
+}
 /* .projects-twine {
   color: #f7D3ba;
   font-weight: bold;
