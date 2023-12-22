@@ -9,7 +9,10 @@
 	var	$window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
-		$banner = $('#banner');
+		$banner = $('#banner'),
+		$main = $('#main'),
+		$footer = $('#footer'),
+		$cta = $('#cta');
 
 	// Breakpoints.
 		breakpoints({
@@ -66,7 +69,10 @@
 	// Header.
 		if (!browser.mobile
 		&&	$header.hasClass('alt')
+		// &&	$header.hasClass('reveal')
 		&&	$banner.length > 0) {
+		// &&	$cta.length > 0) {
+		// if (!browser.mobile) {
 
 			$window.on('load', function() {
 
@@ -76,6 +82,15 @@
 					enter:		function() { $header.addClass('alt reveal'); },
 					leave:		function() { $header.removeClass('alt'); }
 				});
+				
+				// $cta.scrollex({
+				// 	top: '20%',
+				// 	// terminate:		function() { $header.addClass('reveal'); },
+				// 	enter:		function() { $header.addClass('alt'); },
+				// 	// 	enter:		function() { $header.addClass('alt reveal'); },
+				// 	leave:		function() { $header.removeClass('alt'); }
+				// 	// 	leave:		function() { $header.removeClass('alt'); }
+				// })
 
 			});
 
