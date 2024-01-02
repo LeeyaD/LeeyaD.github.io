@@ -12,7 +12,9 @@
 		$banner = $('#banner'),
 		$main = $('#main'),
 		$footer = $('#footer'),
-		$cta = $('#cta');
+		$cta = $('#cta'),
+		$tooltip = $('.tooltip'),
+		$tooltiptext = $('.tooltiptext');
 
 	// Breakpoints.
 		breakpoints({
@@ -93,7 +95,25 @@
 				// })
 
 			});
-
 		}
+
+	// Tooltip
+		$window.on('load', function() {
+			$tooltip.on('mouseenter', function(event) {
+				console.log('mouseenter handler running')
+				$tooltiptext.css({
+					"visibility": "visible",
+					"left" : event.clientX,
+					"top" : event.clientY,
+				});
+			});
+			
+			$tooltip.on('mouseleave', function() {
+				console.log('mouseleave handler running')
+				$tooltiptext.css({
+					"visibility": "hidden",
+				});
+			});
+		});
 
 })(jQuery);
