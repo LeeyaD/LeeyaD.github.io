@@ -13,6 +13,7 @@
 		$main = $('#main'),
 		$footer = $('#footer'),
 		$cta = $('#cta'),
+		$stickyArrows = $('#sticky-component'),
 		$tooltip = $('.tooltip'),
 		$tooltiptext = $('.tooltiptext');
 
@@ -69,30 +70,14 @@
 				});
 
 	// Header.
-		if (!browser.mobile
-		&&	$header.hasClass('alt')
-		// &&	$header.hasClass('reveal')
-		&&	$banner.length > 0) {
-		// &&	$cta.length > 0) {
-		// if (!browser.mobile) {
-
-			$window.on('load', function() {
-
-				$banner.scrollex({
-					bottom:		$header.outerHeight(),
-					terminate:	function() { $header.removeClass('alt'); },
-					enter:		function() { $header.addClass('alt reveal'); },
-					leave:		function() { $header.removeClass('alt'); }
-				});
-				
-				// $cta.scrollex({
-				// 	top: '20%',
-				// 	// terminate:		function() { $header.addClass('reveal'); },
-				// 	enter:		function() { $header.addClass('alt'); },
-				// 	// 	enter:		function() { $header.addClass('alt reveal'); },
-				// 	leave:		function() { $header.removeClass('alt'); }
-				// 	// 	leave:		function() { $header.removeClass('alt'); }
-				// })
+		if (!browser.mobile) {
+			$window.on('load', function() {					
+					// Sticky Double Angle down arrows
+					$footer.scrollex({
+					terminate:		function() { $stickyArrows.removeClass('visibility'); },
+					enter:		function() { $stickyArrows.css("visibility", "hidden"); },
+					leave:		function() { $stickyArrows.css("visibility", "visible"); }
+				})
 
 			});
 		}
