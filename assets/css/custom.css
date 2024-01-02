@@ -53,6 +53,12 @@
   color: #e8974a;
 }
 
+.projects {
+  /* color: #646464; */
+  color: #e8974a;
+  font-weight: bold;
+}
+
 .tools {
   /* color: #646464; */
   color: #e8974a;
@@ -62,7 +68,7 @@
 .techFeatures {
   /* color: #646464; */
   /* color: #e8974a; */
-  font-weight: bold;
+  /* font-weight: bold; */
   font-style: italic;
 }
 
