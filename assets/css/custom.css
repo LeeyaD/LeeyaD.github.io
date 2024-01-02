@@ -53,10 +53,17 @@
   color: #e8974a;
 }
 
-.projects {
+.tools {
   /* color: #646464; */
   color: #e8974a;
   font-weight: bold;
+}
+
+.techFeatures {
+  /* color: #646464; */
+  /* color: #e8974a; */
+  font-weight: bold;
+  font-style: italic;
 }
 
 #sticky-component {
